@@ -1,0 +1,5 @@
+- Conatins application specific buisness rules, encapsulates all of the usecases of the system.
+  - Control flow of data, through and from Entities
+  - Changes in this layer should not affect Entities
+  - This layer should not be affected by changes to DB, UI, or frameworks
+  - Changes in operation of application will affect usecases
